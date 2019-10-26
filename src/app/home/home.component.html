@@ -1,0 +1,34 @@
+<div id="particles-js">
+    <div class="btext">
+        <h1>Welcome to Statera!</h1>
+    </div>
+
+    <div class="btextlogin">
+            <h3>Login</h3>
+    </div>
+  
+    <div class="btext1">
+        <br>
+            <form> User   
+                 <input #data1 type="text" name="user">
+            </form>
+            <br>
+            <form> Password 
+                <input type="text" name="password">
+            </form>
+            
+            <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+    </div>
+
+    <div class="btext2">              
+            <a class="btn" (click)="getDataService(data1.value)">Enter</a>
+    </div>
+
+    <div class="btext3">
+            <a>Don't have an Statera Account yet? </a> 
+            <a href="index.html" style="color:#fff">Create Account</a>
+        </div>
+</div>
+
